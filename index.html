@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <div class="container">
+    <img src="images/logo.svg" alt="Logo" class="logo">
+    <div class="content">
+      <h1 class="heading">
+        <span>We are launching</span> soon!
+      </h1>
+      <p class="para">
+        Subscribe and get notified
+      </p>
+      <form class="form" novalidate>
+        <input type="email" class="email" id="email" placeholder="Your email address" required>
+        <span class="error" aria-live="polite"></span>
+        <button class="btn">
+          Notify Me
+        </button>
+      </form>
+      <img src="images/illustration-dashboard.png" alt="Illustration" class="illustration">
+      <div class="icons">
+        <svg class="icon">
+          <use xlink:href="images/sprite.svg#icon-twitter-with-circle"></use>
+        </svg>
+        <svg class="icon">
+          <use xlink:href="images/sprite.svg#icon-facebook-with-circle"></use>
+        </svg>
+        <svg class="icon">
+          <use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use>
+        </svg>
+      </div>
+      &copy; Copyright Ping. All rights reserved.
+    </div>
+  </div>
+</body>
+<script src='app.js'></script>
+</html>
